@@ -1,0 +1,14 @@
+# Root requirements.txt
+openenv-core
+pydantic
+fastapi
+uvicorn
+pytest
+openai
+python-dotenv
+streamlit>=1.57.0
+chromadb>=1.5.8
+
+-r src/jira_to_code/tasks/easy_5/requirements.txt
+-r src/jira_to_code/tasks/hard_7/requirements.txt
+-r src/jira_to_code/tasks/medium_3/requirements.txt
