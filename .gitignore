@@ -52,3 +52,7 @@ task.md
 walkthrough.md
 72b_eval.txt
 
+# Generated evidence artifacts
+evidence/screenshots/*.png
+
+

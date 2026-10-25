@@ -1,0 +1,28 @@
+{
+  "operator_role": "Autonomous Enterprise AI Operator",
+  "allowed_systems": [
+    {
+      "system": "ERP Invoicing Portal",
+      "endpoint": "http://localhost:8001",
+      "actions": ["login", "view_dashboard", "submit_invoice", "read_queue"],
+      "restrictions": "Amounts >= $2000.00 require human manager approval"
+    },
+    {
+      "system": "Document File Repository",
+      "path": "mock_enterprise/data",
+      "actions": ["read_pdf", "read_csv"],
+      "restrictions": "Read-only access"
+    },
+    {
+      "system": "Corporate Knowledge Base",
+      "path": "memory/knowledge_base",
+      "actions": ["query_company_policy"],
+      "restrictions": "Read-only access"
+    }
+  ],
+  "forbidden_actions": [
+    "direct_disbursement_without_approval",
+    "modifying_vendor_bank_routing_numbers",
+    "bypassing_spending_thresholds"
+  ]
+}

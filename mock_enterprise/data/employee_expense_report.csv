@@ -1,0 +1,4 @@
+claim_id,employee_name,department,category,amount,currency,receipt_attached,date
+EXP-901,Alice Zhang,Engineering,Software Licenses,450.00,USD,TRUE,2024-10-18
+EXP-902,Marcus Vance,Operations,Client Dinner,185.50,USD,TRUE,2024-10-19
+EXP-903,Elena Rostova,Data Science,GPU Cloud Credits,1250.00,USD,TRUE,2024-10-22

@@ -9,6 +9,16 @@ python-dotenv
 streamlit>=1.57.0
 chromadb>=1.5.8
 
+# Enterprise Agent Tooling
+playwright
+pdfplumber
+python-docx
+pandas
+pillow
+aiofiles
+jinja2
+httpx
+
 -r src/jira_to_code/tasks/easy_5/requirements.txt
 -r src/jira_to_code/tasks/hard_7/requirements.txt
 -r src/jira_to_code/tasks/medium_3/requirements.txt

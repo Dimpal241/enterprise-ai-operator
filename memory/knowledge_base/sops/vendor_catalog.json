@@ -1,0 +1,31 @@
+{
+  "vendors": [
+    {
+      "vendor_id": "VEND-001",
+      "name": "Acme Corporation",
+      "category": "Cloud Infrastructure & Hosting",
+      "status": "ACTIVE_APPROVED",
+      "default_po_prefix": "PO-2024-8",
+      "payment_terms": "Net 30",
+      "tax_id": "US-EIN-94-2849102"
+    },
+    {
+      "vendor_id": "VEND-002",
+      "name": "Beta Technologies Ltd",
+      "category": "Cybersecurity & Pentesting",
+      "status": "ACTIVE_APPROVED",
+      "default_po_prefix": "PO-2024-9",
+      "payment_terms": "Net 30",
+      "tax_id": "UK-REG-8492048"
+    },
+    {
+      "vendor_id": "VEND-003",
+      "name": "CloudScale Systems",
+      "category": "Data Engineering Services",
+      "status": "ACTIVE_APPROVED",
+      "default_po_prefix": "PO-2024-1",
+      "payment_terms": "Net 15",
+      "tax_id": "US-EIN-12-9938201"
+    }
+  ]
+}
