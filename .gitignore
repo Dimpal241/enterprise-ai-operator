@@ -54,5 +54,6 @@ walkthrough.md
 
 # Generated evidence artifacts
 evidence/screenshots/*.png
+memory/_fallback_store.json
 
 
