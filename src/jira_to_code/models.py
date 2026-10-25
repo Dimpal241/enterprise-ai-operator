@@ -10,9 +10,8 @@ class JiraCodeAction(Action):
         "list_files",
         "run_tests",
         "submit",
-        "request_human_review",  # HITL: propose change for human approval (does NOT write to disk)
-        "human_approved",         # HITL: internal — app sends this after human clicks Approve
-        "human_rejected",         # HITL: internal — app sends this after human clicks Reject
+        "human_approved_final",  # matches env.py line 518
+        "human_rejected_final",  # matches env.py line 561
     ]
     file_path: Optional[str] = Field(default=None, description="Path to the file to read or write")
     content: Optional[str] = Field(default=None, description="Code content to write to the file")

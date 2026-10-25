@@ -1,4 +1,3 @@
-from django.db.models import Prefetch
 class User:
     def __init__(self, id): self.id = id
 class DB:

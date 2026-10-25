@@ -8,7 +8,7 @@ from openenv.core.env_server import create_web_interface_app
 from server.env import JiraToCodeEnv
 from src.jira_to_code.models import JiraCodeAction, JiraCodeObservation
 
-env = JiraToCodeEnv
+env = JiraToCodeEnv()
 
 app = create_web_interface_app(env, JiraCodeAction, JiraCodeObservation)
 

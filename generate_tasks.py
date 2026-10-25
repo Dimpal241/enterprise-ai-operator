@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-BASE_DIR = Path("d:/CODE/openenv-jira-to-code/src/jira_to_code/tasks")
+BASE_DIR = Path(__file__).resolve().parent / "src" / "jira_to_code" / "tasks"
 
 TASKS_DEF = {
     # EASY TASKS (3 new, making 5 total)
