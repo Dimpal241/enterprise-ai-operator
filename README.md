@@ -201,3 +201,5 @@ python test_hitl.py
 
 ## ⚖️ License
 MIT License. Developed for the CentrAlign Founding Engineer Technical Evaluation.
+#   e n t e r p r i s e - a i - o p e r a t o r  
+ 
